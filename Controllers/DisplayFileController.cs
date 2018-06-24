@@ -22,7 +22,7 @@ namespace ContosoUniversity.Controllers
         }
         public IActionResult Index()
         {
-            //You can uncomment the line below to test message controller works well.
+            //You can uncomment the line below to test message controller. It works well
             //return RedirectToAction("Message", "Message", new { message = "Invalid User" });
             return View();
         }
